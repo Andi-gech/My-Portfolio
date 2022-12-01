@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@animxyz/react": "^0.6.7",
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.1",
+    "popper": "^1.0.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.6.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-countup": "^6.3.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-scroll-trigger": "^0.6.14",
+    "react-visibility-sensor": "^5.1.1",
+    "reactstrap": "^9.1.5"
+  }
+}
