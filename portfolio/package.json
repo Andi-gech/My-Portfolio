@@ -17,8 +17,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+   
     "test": "react-scripts test",
+    "build": "webpack --config webpack.config.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -27,6 +28,7 @@
       "react-app/jest"
     ]
   },
+  
   "browserslist": {
     "production": [
       ">0.2%",
