@@ -4,7 +4,7 @@ import PRO from "./assets/PRO.png";
 
 function Myprofile(props) {
   return (
-    <div className="Profile">
+    <div className="Profile" id="profile212">
       <img src={PRO} alt="arge" />
       <p>
         &nbsp; &nbsp; Hi Welcome to my personal Portfolio My FullName is

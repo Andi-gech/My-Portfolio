@@ -12,10 +12,13 @@ import {
 import React, { useState } from "react";
 import CountUp from "react-countup";
 import "./app.css";
+import { Link } from "react-scroll";
+
+
 
 function Navbars({ onPres }) {
   const [active, setactive] = useState("home");
-  const [visible, setvisible] = useState(true);
+  const [visible, setvisible] = useState(false);
   const onpress = () => {
     const s = !visible;
     setvisible(s);
@@ -26,7 +29,7 @@ function Navbars({ onPres }) {
   };
   return (
     <div>
-      <Navbar className="navbar" expand="lg">
+      <Navbar className="navbar" id='home' expand="lg">
         <Container>
           <Navbar.Brand href="#home">
             <img src={""} alt="LOGO" />
@@ -41,28 +44,31 @@ function Navbars({ onPres }) {
                 className={active === "home" ? "bun-active" : "bun"}
                 onClick={() => onUpdateActiveLink("home")}
               >
-                Home
+             <Link to="home" spy={true} smooth={true} offset={0} duration={200}> Home</Link>
+               
               </Nav.Link>
               <Nav.Link
                 href="#link"
                 className={active === "Profiles" ? "bun-active" : "bun"}
                 onClick={() => onUpdateActiveLink("Profiles")}
               >
-                Profiles
+                <Link to="profiles" spy={true} smooth={true} offset={0} duration={500}> Profile</Link>
+               
               </Nav.Link>
               <Nav.Link
                 href="#sd"
                 className={active === "Skills" ? "bun-active" : "bun"}
                 onClick={() => onUpdateActiveLink("Skills")}
-              >
-                Skills
+              >  <Link to="skill" spy={true} smooth={true} offset={-20} duration={200}>skill</Link>
+               
               </Nav.Link>
               <Nav.Link
                 href="#sd"
                 className={active === "Projects" ? "bun-active" : "bun"}
                 onClick={() => onUpdateActiveLink("Projects")}
               >
-                Projects
+               <Link to="projects" spy={true} smooth={true} offset={-10} duration={200}>Projects</Link>
+               
               </Nav.Link>
             </Nav>
 

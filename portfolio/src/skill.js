@@ -12,7 +12,7 @@ import Provider from "./progress";
 
 function Skill(props) {
   return (
-    <div className="skillbox">
+    <div className="skillbox"  >
       <div className="inside">
         <div>
           <p> python-Django</p>
@@ -36,7 +36,8 @@ function Skill(props) {
                       strokeLinecap: "butt",
                       transform: "rotate(-126deg)",
                       transformOrigin: "center center",
-                      stroke: "black",
+                      stroke: "#00FF08",
+                      transition: 'stroke-dashoffset 1.5s ease 0s',
                     },
                     text: {
                       fill: "#ddd",
@@ -72,7 +73,8 @@ function Skill(props) {
                       strokeLinecap: "butt",
                       transform: "rotate(-126deg)",
                       transformOrigin: "center center",
-                      stroke: "black",
+                      stroke: "#00FF08",
+                      transition: 'stroke-dashoffset 2.5s ease 0s',
                     },
                     text: {
                       fill: "#ddd",
@@ -107,7 +109,8 @@ function Skill(props) {
                       strokeLinecap: "butt",
                       transform: "rotate(-126deg)",
                       transformOrigin: "center center",
-                      stroke: "black",
+                      stroke: "#00FF08",
+                      transition: 'stroke-dashoffset 1.5s ease 0s',
                     },
                     text: {
                       fill: "#ddd",

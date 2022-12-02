@@ -5,7 +5,7 @@ import P2 from "./assets/p2.jpg";
 
 function Projects(props) {
   return (
-    <div className="Project">
+    <div className="Project" id='projects' >
       <h1>Working Projects</h1>
       <div>
         <table>
